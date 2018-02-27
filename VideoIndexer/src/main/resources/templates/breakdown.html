@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>Video Indexer</title>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/ui-darkness/jquery-ui.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/site.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">Video Upload</a>
+            <a class="navbar-brand" href="/breakdown/">|  Video Metadate</a>
+            <a class="navbar-brand" href="/player/">|  Video Insights</a>
+        </div>
+    </div>
+</nav>
+<br/><br/><br/><br/>
+<h1>Video Indexer - Breakdown</h1>
+
+<p>Here are full details of a given breakdown including all the video insights. Each block includes time ranges, transcript lines, OCR lines, sentiments, faces and their block thumbnails.</p>
+	<br/>
+	<div th:if="${breakdown}">
+		<h2 th:text="${breakdown}"/>
+	</div>
+	
+	<script src="https://breakdown.blob.core.windows.net/public/vb.widgets.mediator.js"></script>
+	<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/site.js"></script>
+</body>
+</html>
+
