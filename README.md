@@ -1,6 +1,6 @@
 Azure Video indexer builds upon media AI technologies to make it easier to extract insights from videos. It makes your content more discoverable content such as searching for spoken words, faces, characters, emotions, sentiment analysis and more. 
 
-This project show how to upload a Video stream and use Azure Video Indexer API to easily extracting insights from videos using artificial intelligence (AI) and enhance content discovery experiences (ex: detecting spoken words, faces, characters, and emotions) . Then, it using Face API to Store, Group and using AI to Train people's faces in order to recognize and label person's face by Name in the Video.
+This project shows how to upload a Video stream and use Azure Video Indexer API to easily extracting insights from videos using artificial intelligence (AI) and enhance content discovery experiences. Then, it uses Azure Face API to Store, Group and using AI to Train people's faces in order to automatically recognize and update a person's face by Name in the Video.
 
 
 # Prerequisite:
