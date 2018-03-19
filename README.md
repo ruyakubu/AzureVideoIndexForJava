@@ -12,12 +12,12 @@ https://docs.microsoft.com/en-us/azure/cognitive-services/video-indexer/video-in
 - Create an Azure Face API service:
 https://azure.microsoft.com/en-us/try/cognitive-services/?api=face-api
 
-copy the Face API key to use in this code
+- Copy the Face API key to use in this code
 
 - Ceare an Azure Blob Storage:
 https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=portal
 
-copy the Storage connection string to use in this code
+- Copy the Storage connection string to use in this code
 https://docs.microsoft.com/en-us/azure/storage/files/storage-java-how-to-use-file-storage
 
 
